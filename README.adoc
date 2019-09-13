@@ -196,7 +196,7 @@ Run the following command to start the Appsody development environment:
 appsody run
 ----
 
-The Appsody CLI launches a local docker container that compiles and hosts the microservice. After some time, you see a message similar to the following example:
+The Appsody CLI launches a local Docker container that compiles and hosts the microservice. After some time, you see a message similar to the following example:
 [source, role='no_copy']
 ----
 [Container] 2019-09-12 17:28:44.066  INFO 171 --- [  restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
@@ -309,7 +309,7 @@ After you finish writing your application code, the Appsody CLI makes it easy to
 appsody deploy
 ----
 
-This command builds a new docker image that is optimised for production deployment and deploys the image to your Kubernetes cluster. After some time you see a message similar to the following example:
+This command builds a new Docker image that is optimized for production deployment and deploys the image to your Kubernetes cluster. After some time you see a message similar to the following example:
 [source, role='no_copy']
 ----
 Deployed project running at http://localhost:30262
@@ -329,7 +329,7 @@ appsody-operator-859b97bb98-xm8nl      1/1     Running   1          8d
 simple-spring-boot2-77d6868765-bhd8x   1/1     Running   0          3m21s
 ----
 
-Go to the URL that was returned in the previous step, and you see the Appsody microservice splash screen. To see the response from your application, point your browser to `<URL_STRING>/example`, where <URL_STRING> is the URL that was returned.
+Go to the URL that was returned when you ran the `appsody deploy` command, and you see the Appsody microservice splash screen. To see the response from your application, point your browser to the `<URL_STRING>/example` URL, where <URL_STRING> is the URL that was returned.
 
 Use the following command to stop the deployed application:
 [role="command"]
@@ -349,7 +349,7 @@ Deployment deleted
 
 == Deploying to Knative
 
-You can also choose to deploy the application with Knative serving.
+You can also choose to deploy the application with Knative Serving.
 
 If you do not have Knative installed in your Kubernetes cluster, complete the installation instructions in the https://knative.dev/docs/install/[Knative documentation] before continuing.
 
@@ -383,7 +383,7 @@ After the application deploys, you see a message similar to the following exampl
 Deployed project running at "http://simple-spring-boot2.knative-serving.192.168.1.10.nip.io"
 ----
 
-To see the response from your application, point your browser to `<URL_STRING>/example`, where <URL_STRING> is the URL that was returned in the previous step.
+To see the response from your application, point your browser to the `<URL_STRING>/example` URL, where <URL_STRING> is the URL that was returned in the previous step.
 
 // =================================================================================================
 // Delivering to pipelines
