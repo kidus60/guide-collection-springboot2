@@ -329,7 +329,7 @@ appsody-operator-859b97bb98-xm8nl      1/1     Running   1          8d
 simple-spring-boot2-77d6868765-bhd8x   1/1     Running   0          3m21s
 ----
 
-Go to the URL that was returned when you ran the `appsody deploy` command, and you see the Appsody microservice splash screen. To see the response from your application, point your browser to the `<URL_STRING>/example` URL, where <URL_STRING> is the URL that was returned.
+Go to the URL that was returned when you ran the `appsody deploy` command, and you see the Appsody microservice splash screen. To see the response from your application, point your browser to the `<URL_STRING>/example` URL, where `<URL_STRING>` is the URL that was returned.
 
 Use the following command to stop the deployed application:
 [role="command"]
@@ -383,7 +383,7 @@ After the application deploys, you see a message similar to the following exampl
 Deployed project running at "http://simple-spring-boot2.knative-serving.192.168.1.10.nip.io"
 ----
 
-To see the response from your application, point your browser to the `<URL_STRING>/example` URL, where <URL_STRING> is the URL that was returned in the previous step.
+To see the response from your application, point your browser to the `<URL_STRING>/example` URL, where `<URL_STRING>` is the URL that was returned in the previous step.
 
 // =================================================================================================
 // Delivering to pipelines
