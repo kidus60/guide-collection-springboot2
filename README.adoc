@@ -1,7 +1,7 @@
 ---
 permalink: /guides/collection-spring-boot-appsody/
+github-url: https://github.com/kabanero-io/guide-collection-springboot2
 ---
-:page-github-link: https://github.com/kabanero-io/guide-collection-springboot2
 :page-layout: guide
 :page-duration: 40 minutes
 :page-releasedate: 2019-09-16
