@@ -1,5 +1,5 @@
 ---
-permalink: /guides/guide-collection-springboot2/
+permalink: /guides/collection-springboot2/
 ---
 :page-layout: guide
 :page-duration: 40 minutes
